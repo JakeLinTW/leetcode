@@ -3,14 +3,19 @@ package com.jake.solution;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Random;
 
 public class N0169_MajorityElement {
+
     public static void main(String[] args) {
-        int r = N0169_MajorityElement.majorityElement3(new int[] { 3, 2, 3 });
+        int r = N0169_MajorityElement.majorityElement6(new int[] { 3, 2, 3 });
         System.out.println(r); // 3
 
-        r = N0169_MajorityElement.majorityElement3(new int[] { 2, 2, 1, 1, 1, 2, 2 });
+        r = N0169_MajorityElement.majorityElement6(new int[] { 2, 2, 1, 1, 1, 2, 2 });
         System.out.println(r); // 2
+
+        r = N0169_MajorityElement.majorityElement6(new int[] { 10, 9, 9, 9, 10 });
+        System.out.println(r); // 9
     }
 
     // hash map
@@ -66,20 +71,43 @@ public class N0169_MajorityElement {
 
     // randomization
     public static int majorityElement4(int[] nums) {
-        // TODO
+        Random random = new Random();
+        int majorityCount = nums.length / 2;
+        while (true) {
+            int i = random.nextInt(nums.length);
+            int r = nums[i];
+            int count = 0;
+            for (int num : nums) {
+                if (r == num) {
+                    count++;
+                }
+            }
+            if (count > majorityCount) {
+                return r;
+            }
+        }
+    }
+
+    // divide and conquer
+    public static int majorityElement5(int[] nums) {
         return 0;
     }
 
     // boyer-moore voting algorithm
-    public static int majorityElement5(int[] nums) {
-        // TODO
-        return 0;
-    }
-
-    // divide and conquer
     public static int majorityElement6(int[] nums) {
-        // TODO
-        return 0;
+        int r = 0;
+        int count = 0;
+        for (int num : nums) {
+            if (count == 0) {
+                r = num;
+            }
+            if (r == num) {
+                count++;
+            } else {
+                count--;
+            }
+        }
+        return r;
     }
 
 }
