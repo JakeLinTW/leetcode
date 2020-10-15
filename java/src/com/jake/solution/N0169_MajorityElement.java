@@ -90,7 +90,36 @@ public class N0169_MajorityElement {
 
     // divide and conquer
     public static int majorityElement5(int[] nums) {
-        return 0;
+        return findMajorityElement(nums, 0, nums.length - 1);
+    }
+
+    private static int findMajorityElement(int[] nums, int left, int right) {
+        if (left == right) {
+            return nums[left];
+        }
+
+        int midIndex = (right + left) / 2;
+        int leftMajority = findMajorityElement(nums, left, midIndex);
+        int rightMajority = findMajorityElement(nums, midIndex + 1, right);
+
+        if (leftMajority == rightMajority) {
+            return leftMajority;
+        }
+
+        int leftCount = countMajortiy(nums, leftMajority);
+        int rightCount = countMajortiy(nums, rightMajority);
+
+        return leftCount > rightCount ? leftMajority : rightMajority;
+    }
+
+    private static int countMajortiy(int[] nums, int target) {
+        int count = 0;
+        for (int num : nums) {
+            if (target == num) {
+                count++;
+            }
+        }
+        return count;
     }
 
     // boyer-moore voting algorithm
