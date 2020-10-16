@@ -2,16 +2,8 @@ package com.jake.solution;
 
 public class N0011_ContainerWithMostWater {
 
-    public static void main(String[] args) {
-        int r = N0011_ContainerWithMostWater.maxArea(new int[] { 1, 8, 6, 2, 5, 4, 8, 3, 7 });
-        System.out.println(r); // 49
-
-        r = N0011_ContainerWithMostWater.maxArea2(new int[] { 1, 8, 6, 2, 5, 4, 8, 3, 7 });
-        System.out.println(r); // 49
-    }
-
     // nested loop
-    public static int maxArea(int[] height) {
+    public int maxArea(int[] height) {
 
         int r = 0;
         for (int i = 0; i < height.length; i++) {
@@ -28,7 +20,7 @@ public class N0011_ContainerWithMostWater {
     }
 
     // two pointer, one pass
-    public static int maxArea2(int[] height) {
+    public int maxArea2(int[] height) {
 
         int r = 0;
         int p1 = 0;

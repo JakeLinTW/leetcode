@@ -2,25 +2,8 @@ package com.jake.solution;
 
 public class N0053_MaximumSubarray {
 
-    public static void main(String[] args) {
-        int r = N0053_MaximumSubarray.maxSubArray(new int[] { -2, 1, -3, 4, -1, 2, 1, -5, 4 });
-        System.out.println(r); // 6
-
-        r = N0053_MaximumSubarray.maxSubArray(new int[] { 1 });
-        System.out.println(r); // 1
-
-        r = N0053_MaximumSubarray.maxSubArray2(new int[] { 0 });
-        System.out.println(r); // 0
-
-        r = N0053_MaximumSubarray.maxSubArray2(new int[] { -1 });
-        System.out.println(r); // -1
-
-        r = N0053_MaximumSubarray.maxSubArray2(new int[] { -2147483647 });
-        System.out.println(r); // -2147483647
-    }
-
     // dynamic programming
-    public static int maxSubArray(int[] nums) {
+    public int maxSubArray(int[] nums) {
 
         int max = nums[0], temp = 0;
 
@@ -39,11 +22,11 @@ public class N0053_MaximumSubarray {
     }
 
     // divide and conquer
-    public static int maxSubArray2(int[] nums) {
+    public int maxSubArray2(int[] nums) {
         return findMax(nums, 0, nums.length - 1);
     }
 
-    private static int findMax(int[] nums, int l, int r) {
+    private int findMax(int[] nums, int l, int r) {
 
         if (l < r) {
             int m = (l + r) / 2;
@@ -58,7 +41,7 @@ public class N0053_MaximumSubarray {
         }
     }
 
-    private static int findMax(int[] nums, int l, int m, int r) {
+    private int findMax(int[] nums, int l, int m, int r) {
         int leftMax = nums[m];
         int leftSum = nums[m];
         int rightMax = nums[m + 1];

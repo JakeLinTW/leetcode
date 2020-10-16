@@ -5,17 +5,7 @@ import java.util.List;
 
 public class N0118_PascalsTriangle {
 
-    public static void main(String[] args) {
-        List<List<Integer>> r = N0118_PascalsTriangle.generate(4);
-        r.stream().forEach(System.out::println);
-        
-        System.out.println();
-
-        r = N0118_PascalsTriangle.generate2(6);
-        r.stream().forEach(System.out::println);
-    }
-
-    public static List<List<Integer>> generate(int numRows) {
+    public List<List<Integer>> generate(int numRows) {
 
         List<List<Integer>> result = new ArrayList<List<Integer>>();
         for (int i = 0; i < numRows; i++) {
@@ -38,7 +28,7 @@ public class N0118_PascalsTriangle {
         return result;
     }
 
-    public static List<List<Integer>> generate2(int numRows) {
+    public List<List<Integer>> generate2(int numRows) {
 
         List<List<Integer>> result = new ArrayList<List<Integer>>();
         if (numRows == 0) {

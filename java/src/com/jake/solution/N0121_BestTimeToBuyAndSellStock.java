@@ -1,19 +1,9 @@
 package com.jake.solution;
 
 public class N0121_BestTimeToBuyAndSellStock {
-    public static void main(String[] args) {
-        int r = N0121_BestTimeToBuyAndSellStock.maxProfit(new int[] { 7, 1, 5, 3, 6, 4 });
-        System.out.println(r); // 5
-
-        r = N0121_BestTimeToBuyAndSellStock.maxProfit2(new int[] { 7, 6, 4, 3, 1 });
-        System.out.println(r); // 0
-
-        r = N0121_BestTimeToBuyAndSellStock.maxProfit3(new int[] { 2, 1, 4 });
-        System.out.println(r); // 3
-    }
 
     // nested loop
-    public static int maxProfit(int[] prices) {
+    public int maxProfit(int[] prices) {
         int max = 0;
 
         int size = prices.length;
@@ -30,7 +20,7 @@ public class N0121_BestTimeToBuyAndSellStock {
     }
 
     // two pointer
-    public static int maxProfit2(int[] prices) {
+    public int maxProfit2(int[] prices) {
         int max = 0;
 
         int i = 0;
@@ -49,7 +39,7 @@ public class N0121_BestTimeToBuyAndSellStock {
     }
 
     // keep lowest price
-    public static int maxProfit3(int[] prices) {
+    public int maxProfit3(int[] prices) {
         int minValue = Integer.MAX_VALUE;
         int max = 0;
 

@@ -5,12 +5,7 @@ import java.util.List;
 
 public class N0119_PascalsTriangleII {
 
-    public static void main(String[] args) {
-        List<Integer> r = N0119_PascalsTriangleII.getRow(5);
-        System.out.println(r);
-    }
-
-    public static List<Integer> getRow(int rowIndex) {
+    public List<Integer> getRow(int rowIndex) {
         List<Integer> result = new ArrayList<Integer>();
         result.add(1);
         if (rowIndex == 0) {
