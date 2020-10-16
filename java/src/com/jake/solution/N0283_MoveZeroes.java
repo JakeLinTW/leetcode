@@ -1,7 +1,5 @@
 package com.jake.solution;
 
-import java.util.stream.IntStream;
-
 public class N0283_MoveZeroes {
 
     // nested loop
