@@ -5,6 +5,7 @@ import java.util.List;
 
 public class N0118_PascalsTriangle {
 
+    // nested loop
     public List<List<Integer>> generate(int numRows) {
 
         List<List<Integer>> result = new ArrayList<List<Integer>>();
@@ -28,6 +29,7 @@ public class N0118_PascalsTriangle {
         return result;
     }
 
+    // optimized
     public List<List<Integer>> generate2(int numRows) {
 
         List<List<Integer>> result = new ArrayList<List<Integer>>();
@@ -54,4 +56,6 @@ public class N0118_PascalsTriangle {
 
         return result;
     }
+    
+    // TODO using the Pascal's triangle formula
 }

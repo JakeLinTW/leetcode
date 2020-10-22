@@ -5,6 +5,7 @@ import java.util.List;
 
 public class N0119_PascalsTriangleII {
 
+    // nested loop
     public List<Integer> getRow(int rowIndex) {
         List<Integer> result = new ArrayList<Integer>();
         result.add(1);
@@ -26,4 +27,6 @@ public class N0119_PascalsTriangleII {
 
         return result;
     }
+    
+    // TODO using the Pascal's triangle formula
 }
