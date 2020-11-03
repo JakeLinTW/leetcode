@@ -10,8 +10,31 @@
 |53|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|Java|Easy||
 |66|[Plus One](https://leetcode.com/problems/plus-one/)|Java|Easy||
 |88|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)|Java|Easy||
-|118|[Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)|Java|Easy||
+|118|[Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)|Java|Easy|rC0 = 1, rCn = rCn-1 * (r - n + 1) / n|
 |119|[Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/)|Java|Easy||
-||||||
-||||||
-||||||
+|121|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)|Java|Easy||
+|122|[Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)|Java|Easy||
+|167|[Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)|Java|Easy||
+|169|[Majority Element](https://leetcode.com/problems/majority-element/)|Java|Easy||
+|217|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)|Java|Easy||
+|219|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate-ii/)|Java|Easy||
+|229|[Majority Element II](https://leetcode.com/problems/majority-element-ii/)|Java|Medium||
+|283|[Move Zeroes](https://leetcode.com/problems/move-zeroes/)|Java|Easy||
+|414|[Third Maximum Number](https://leetcode.com/problems/third-maximum-number/)|Java|Easy||
+|448|[Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)|Java|Easy||
+|485|[Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/)|Java|Easy||
+|561|[Array Partition I](https://leetcode.com/problems/array-partition-i/)|Java|Easy||
+|566|[Array Partition I](https://leetcode.com/problems/reshape-the-matrix/)|Java|Easy||
+|605|[Can Place Flowers](https://leetcode.com/problems/can-place-flowers/)|Java|Easy|Note the first and last index.|
+|628|[Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/)|Java|Easy||
+|643|[Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/)|Java|Easy||
+|661|[Image Smoother](https://leetcode.com/problems/image-smoother/)|Java|Easy||
+|665|[Non-decreasing Array](https://leetcode.com/problems/non-decreasing-array/)|Java|Easy|The problem interval at must 4 elements.|
+|674|[Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/)|Java|Easy||
+|697|[Degree of an Array](https://leetcode.com/problems/degree-of-an-array/)|Java|Easy|The degree of array is the maximum frequency of any one of its elements|
+||[]()||||
+||[]()||||
+||[]()||||
+||[]()||||
+||[]()||||
+||[]()||||
