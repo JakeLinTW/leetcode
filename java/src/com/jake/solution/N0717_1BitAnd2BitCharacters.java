@@ -2,10 +2,6 @@ package com.jake.solution;
 
 public class N0717_1BitAnd2BitCharacters {
 
-    public static void main(String[] args) {
-        System.out.println(new N0717_1BitAnd2BitCharacters().isOneBitCharacter3(new int[] { 1, 1, 0, 1, 1, 0 }));
-    }
-
     // increment pointer
     public boolean isOneBitCharacter(int[] bits) {
         for (int i = 0; i < bits.length; i++) {
