@@ -31,10 +31,13 @@
 |661|[Image Smoother](https://leetcode.com/problems/image-smoother/)|Java|Easy||
 |665|[Non-decreasing Array](https://leetcode.com/problems/non-decreasing-array/)|Java|Easy|The problem interval at must 4 elements.|
 |674|[Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/)|Java|Easy||
-|697|[Degree of an Array](https://leetcode.com/problems/degree-of-an-array/)|Java|Easy|The degree of array is the maximum frequency of any one of its elements|
-||[]()||||
-||[]()||||
-||[]()||||
-||[]()||||
+|697|[Degree of an Array](https://leetcode.com/problems/degree-of-an-array/)|Java|Easy|The degree of array is the maximum frequency of any one of its elements.|
+|717|[1-bit and 2-bit Characters](https://leetcode.com/problems/1-bit-and-2-bit-characters/)|Java|Easy||
+|724|[Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)|Java|Easy||
+|746|[Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)|Java|Easy|Find each step min cost.|
+|747|[Largest Number At Least Twice of Others](https://leetcode.com/problems/largest-number-at-least-twice-of-others/)|Java|Easy||
+|766|[Toeplitz Matrix](https://leetcode.com/problems/toeplitz-matrix/)|Java|Easy||
+|830|[Positions of Large Groups](https://leetcode.com/problems/positions-of-large-groups/)|Java|Easy||
+|832|[Flipping an Image](https://leetcode.com/problems/flipping-an-image/)|Java|Easy||
 ||[]()||||
 ||[]()||||
