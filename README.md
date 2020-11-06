@@ -39,5 +39,13 @@
 |766|[Toeplitz Matrix](https://leetcode.com/problems/toeplitz-matrix/)|Java|Easy||
 |830|[Positions of Large Groups](https://leetcode.com/problems/positions-of-large-groups/)|Java|Easy||
 |832|[Flipping an Image](https://leetcode.com/problems/flipping-an-image/)|Java|Easy||
+|867|[Transpose Matrix](https://leetcode.com/problems/transpose-matrix/)|Java|Easy|input\[x\]\[y\] == output\[y\]\[x\]|
+|888|[Fair Candy Swap](https://leetcode.com/problems/fair-candy-swap/)|Java|Easy||
+|896|[Monotonic Array](https://leetcode.com/problems/monotonic-array/)|Java|Easy||
+||[]()||||
+||[]()||||
+||[]()||||
+||[]()||||
+||[]()||||
 ||[]()||||
 ||[]()||||
