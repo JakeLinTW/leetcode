@@ -6,6 +6,7 @@
 |11|[Container With Most Water](https://leetcode.com/problems/container-with-most-water/)|Java|Medium||
 |26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)|Java|Easy||
 |27|[Remove Element](https://leetcode.com/problems/remove-element/)|Jave|Easy||
+|28|[Implement strStr()](https://leetcode.com/problems/implement-strstr/)|Java|Easy||
 |35|[Search Insert Position](https://leetcode.com/problems/search-insert-position/)|Java|Easy||
 |53|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|Java|Easy||
 |66|[Plus One](https://leetcode.com/problems/plus-one/)|Java|Easy||
