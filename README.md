@@ -15,10 +15,14 @@
 |119|[Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/)|Java|Easy||
 |121|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)|Java|Easy||
 |122|[Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)|Java|Easy||
+|125|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)|Java|Easy||
+|141|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)|Java|Easy||
+|141|[Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)|Java|Medium|distance: <br> slow pointer = x + y <br> fast pointer = x + 2y + z <br> 2 * slow = fast, so x = z  |
 |167|[Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)|Java|Easy||
 |169|[Majority Element](https://leetcode.com/problems/majority-element/)|Java|Easy||
+|209|[Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)|Java|Medium||
 |217|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)|Java|Easy||
-|219|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate-ii/)|Java|Easy||
+|219|[Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/)|Java|Easy||
 |229|[Majority Element II](https://leetcode.com/problems/majority-element-ii/)|Java|Medium||
 |283|[Move Zeroes](https://leetcode.com/problems/move-zeroes/)|Java|Easy||
 |414|[Third Maximum Number](https://leetcode.com/problems/third-maximum-number/)|Java|Easy||
