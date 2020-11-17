@@ -1,8 +1,5 @@
 package com.jake.solution;
 
-import java.util.Arrays;
-import java.util.stream.Stream;
-
 public class N0125_ValidPalindrome {
 
     // two pointer ( compare char ASCII number )

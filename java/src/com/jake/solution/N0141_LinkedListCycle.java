@@ -46,6 +46,7 @@ public class N0141_LinkedListCycle {
         return true;
     }
 
+    @SuppressWarnings("unused")
     private static class ListNode {
         int val;
         ListNode next;

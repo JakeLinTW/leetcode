@@ -74,6 +74,7 @@ public class N0142_LinkedListCycleII {
         return slow;
     }
 
+    @SuppressWarnings("unused")
     private static class ListNode {
         int val;
         ListNode next;
