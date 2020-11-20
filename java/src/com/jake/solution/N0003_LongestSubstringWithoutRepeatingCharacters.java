@@ -5,7 +5,7 @@ import java.util.Set;
 
 public class N0003_LongestSubstringWithoutRepeatingCharacters {
 
-    // using hash set
+    // brute force, using hash set
     public int lengthOfLongestSubstring(String s) {
         int solve = 0;
         Set<Character> set = new HashSet<Character>();
@@ -37,5 +37,48 @@ public class N0003_LongestSubstringWithoutRepeatingCharacters {
         return solve = solve > sb.length() ? solve : sb.length();
     }
 
-    // TODO better time complexity
+    // using hash set optimize
+    public int lengthOfLongestSubstring3(String s) {
+        int solve = 0;
+        Set<Character> set = new HashSet<Character>();
+        int rm = 0;
+        for (int add = 0; add < s.length(); add++) {
+            if (!set.add(s.charAt(add))) {
+                solve = solve > set.size() ? solve : set.size();
+                set.remove(s.charAt(add));
+                while (set.remove(s.charAt(rm++))) {
+                }
+                set.add(s.charAt(add));
+            }
+        }
+        return solve > set.size() ? solve : set.size();
+    }
+
+    // two pointer
+    public int lengthOfLongestSubstring4(String s) {
+        int solve = 0;
+        Set<Character> set = new HashSet<Character>();
+        int fast = 0, slow = 0;
+        while (fast < s.length()) {
+            if (!set.contains(s.charAt(fast))) {
+                set.add(s.charAt(fast++));
+            } else {
+                set.remove(s.charAt(slow++));
+            }
+            solve = solve > set.size() ? solve : set.size();
+        }
+        return solve;
+    }
+
+    // TODO using hash map
+    public int lengthOfLongestSubstring5(String s) {
+        char[] chars = s.toCharArray();
+        return 0;
+    }
+    
+    // TODO using char array
+    public int lengthOfLongestSubstring6(String s) {
+        char[] chars = s.toCharArray();
+        return 0;
+    }
 }
