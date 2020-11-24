@@ -28,6 +28,8 @@
 |219|[Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/)|Java|Easy||
 |229|[Majority Element II](https://leetcode.com/problems/majority-element-ii/)|Java|Medium||
 |283|[Move Zeroes](https://leetcode.com/problems/move-zeroes/)|Java|Easy||
+|287|[Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)|Java|Medium||
+|344|[Reverse String](https://leetcode.com/problems/reverse-string/)|Java|Easy||
 |414|[Third Maximum Number](https://leetcode.com/problems/third-maximum-number/)|Java|Easy||
 |448|[Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)|Java|Easy||
 |485|[Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/)|Java|Easy||
