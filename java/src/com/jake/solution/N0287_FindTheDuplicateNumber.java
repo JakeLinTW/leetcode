@@ -64,4 +64,21 @@ public class N0287_FindTheDuplicateNumber {
         }
         return -1;
     }
+
+    // two pointer
+    public int findDuplicate6(int[] nums) {
+        int slow = 0;
+        int fast = 0;
+        do {
+            slow = nums[slow];
+            fast = nums[nums[fast]];
+        } while (slow != fast);
+        
+        slow = 0;
+        while (nums[slow] != nums[fast]) {
+            slow = nums[slow];
+            fast = nums[fast];
+        }
+        return nums[slow];
+    }
 }
