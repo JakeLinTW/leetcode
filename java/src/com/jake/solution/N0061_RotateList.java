@@ -81,7 +81,7 @@ public class N0061_RotateList {
     }
 
     @SuppressWarnings("unused")
-    private static class ListNode {
+    private class ListNode {
         int val;
         ListNode next;
 
