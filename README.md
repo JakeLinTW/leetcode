@@ -5,20 +5,25 @@
 |1|[Two Sum](https://leetcode.com/problems/two-sum/)|Java|Easy||
 |3|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)|Java|Medium||
 |11|[Container With Most Water](https://leetcode.com/problems/container-with-most-water/)|Java|Medium||
+|15|[3Sum](https://leetcode.com/problems/3sum/)|Java|Medium||
 |26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)|Java|Easy||
 |27|[Remove Element](https://leetcode.com/problems/remove-element/)|Jave|Easy||
 |28|[Implement strStr()](https://leetcode.com/problems/implement-strstr/)|Java|Easy||
 |35|[Search Insert Position](https://leetcode.com/problems/search-insert-position/)|Java|Easy||
+|36|[Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)|Java|Medium||
+|49|[Group Anagrams](https://leetcode.com/problems/group-anagrams/)|Java|Medium||
 |53|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|Java|Easy||
 |61|[Rotate List](https://leetcode.com/problems/rotate-list/)|Java|Medium||
 |66|[Plus One](https://leetcode.com/problems/plus-one/)|Java|Easy||
 |75|[Sort Colors](https://leetcode.com/problems/sort-colors/)|Java|Medium|Sort algorithm|
 |88|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)|Java|Easy||
+|94|[Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)|Java|Medium||
 |118|[Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)|Java|Easy|rC0 = 1, rCn = rCn-1 * (r - n + 1) / n|
 |119|[Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/)|Java|Easy||
 |121|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)|Java|Easy||
 |122|[Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)|Java|Easy||
 |125|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)|Java|Easy||
+|136|[Single Number](https://leetcode.com/problems/single-number/)|Java|Easy||
 |141|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)|Java|Easy||
 |141|[Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)|Java|Medium|distance: <br> slow pointer = x + y <br> fast pointer = x + 2y + z <br> 2 * slow = fast, so x = z  |
 |167|[Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)|Java|Easy||
@@ -29,7 +34,9 @@
 |229|[Majority Element II](https://leetcode.com/problems/majority-element-ii/)|Java|Medium||
 |283|[Move Zeroes](https://leetcode.com/problems/move-zeroes/)|Java|Easy||
 |287|[Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)|Java|Medium||
+|290|[Word Pattern](https://leetcode.com/problems/word-pattern/)|Java|Easy||
 |344|[Reverse String](https://leetcode.com/problems/reverse-string/)|Java|Easy||
+|349|[Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/)|Java|Easy||
 |414|[Third Maximum Number](https://leetcode.com/problems/third-maximum-number/)|Java|Easy||
 |448|[Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)|Java|Easy||
 |485|[Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/)|Java|Easy||
