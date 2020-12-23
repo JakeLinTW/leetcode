@@ -26,8 +26,11 @@
 |136|[Single Number](https://leetcode.com/problems/single-number/)|Java|Easy||
 |141|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)|Java|Easy||
 |141|[Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)|Java|Medium|distance: <br> slow pointer = x + y <br> fast pointer = x + 2y + z <br> 2 * slow = fast, so x = z  |
+|166|[Fraction to Recurring Decimal](https://leetcode.com/problems/fraction-to-recurring-decimal/)|Java|Medium|Math.abs(-2147483648) = -2147483648<br>decimal max length without '()' = 1000|
 |167|[Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)|Java|Easy||
 |169|[Majority Element](https://leetcode.com/problems/majority-element/)|Java|Easy||
+|202|[Happy Number](https://leetcode.com/problems/happy-number/)|Java|Easy||
+|204|[Count Primes](https://leetcode.com/problems/count-primes/)|Java|Easy||
 |209|[Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)|Java|Medium||
 |217|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)|Java|Easy||
 |219|[Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/)|Java|Easy||
@@ -37,6 +40,7 @@
 |290|[Word Pattern](https://leetcode.com/problems/word-pattern/)|Java|Easy||
 |344|[Reverse String](https://leetcode.com/problems/reverse-string/)|Java|Easy||
 |349|[Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/)|Java|Easy||
+|350|[Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/)|Java|Easy||
 |414|[Third Maximum Number](https://leetcode.com/problems/third-maximum-number/)|Java|Easy||
 |448|[Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)|Java|Easy||
 |485|[Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/)|Java|Easy||
