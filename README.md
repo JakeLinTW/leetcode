@@ -31,19 +31,27 @@
 |169|[Majority Element](https://leetcode.com/problems/majority-element/)|Java|Easy||
 |202|[Happy Number](https://leetcode.com/problems/happy-number/)|Java|Easy||
 |204|[Count Primes](https://leetcode.com/problems/count-primes/)|Java|Easy||
+|205|[Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)|Java|Easy||
 |209|[Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)|Java|Medium||
 |217|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)|Java|Easy||
 |219|[Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/)|Java|Easy||
 |229|[Majority Element II](https://leetcode.com/problems/majority-element-ii/)|Java|Medium||
+|242|[Valid Anagram](https://leetcode.com/problems/valid-anagram/)|Java|Easy||
 |283|[Move Zeroes](https://leetcode.com/problems/move-zeroes/)|Java|Easy||
 |287|[Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)|Java|Medium||
 |290|[Word Pattern](https://leetcode.com/problems/word-pattern/)|Java|Easy||
+|299|[Bulls and Cows](https://leetcode.com/problems/bulls-and-cows/)|Java|Medium||
 |344|[Reverse String](https://leetcode.com/problems/reverse-string/)|Java|Easy||
+|347|[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)|Java|Medium||
 |349|[Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/)|Java|Easy||
 |350|[Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/)|Java|Easy||
+|355|[Design Twitter](https://leetcode.com/problems/design-twitter/)|Java|Medium||
+|387|[First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/)|Java|Easy|reverse by xor|
+|389|[Find the Difference](https://leetcode.com/problems/find-the-difference/)|Java|Easy||
 |414|[Third Maximum Number](https://leetcode.com/problems/third-maximum-number/)|Java|Easy||
 |448|[Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)|Java|Easy||
 |485|[Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/)|Java|Easy||
+|500|[Keyboard Row](https://leetcode.com/problems/keyboard-row/)|Java|Easy||
 |561|[Array Partition I](https://leetcode.com/problems/array-partition-i/)|Java|Easy||
 |566|[Array Partition I](https://leetcode.com/problems/reshape-the-matrix/)|Java|Easy||
 |605|[Can Place Flowers](https://leetcode.com/problems/can-place-flowers/)|Java|Easy|Note the first and last index.|
