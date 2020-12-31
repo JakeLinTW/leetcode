@@ -35,6 +35,7 @@
 |209|[Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)|Java|Medium||
 |217|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)|Java|Easy||
 |219|[Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/)|Java|Easy||
+|228|[Summary Ranges](https://leetcode.com/problems/summary-ranges/)|Java|Easy||
 |229|[Majority Element II](https://leetcode.com/problems/majority-element-ii/)|Java|Medium||
 |242|[Valid Anagram](https://leetcode.com/problems/valid-anagram/)|Java|Easy||
 |283|[Move Zeroes](https://leetcode.com/problems/move-zeroes/)|Java|Easy||
@@ -48,7 +49,9 @@
 |355|[Design Twitter](https://leetcode.com/problems/design-twitter/)|Java|Medium||
 |387|[First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/)|Java|Easy|reverse by xor|
 |389|[Find the Difference](https://leetcode.com/problems/find-the-difference/)|Java|Easy||
+|409|[Longest Palindrome](https://leetcode.com/problems/longest-palindrome/)|Java|Easy||
 |414|[Third Maximum Number](https://leetcode.com/problems/third-maximum-number/)|Java|Easy||
+|438|[Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/)|Java|Medium||
 |448|[Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)|Java|Easy||
 |485|[Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/)|Java|Easy||
 |500|[Keyboard Row](https://leetcode.com/problems/keyboard-row/)|Java|Easy||
