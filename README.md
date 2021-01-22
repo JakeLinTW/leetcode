@@ -29,6 +29,7 @@
 |166|[Fraction to Recurring Decimal](https://leetcode.com/problems/fraction-to-recurring-decimal/)|Java|Medium|Math.abs(-2147483648) = -2147483648<br>decimal max length without '()' = 1000|
 |167|[Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)|Java|Easy||
 |169|[Majority Element](https://leetcode.com/problems/majority-element/)|Java|Easy||
+|187|[Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences/)|Java|Medium||
 |202|[Happy Number](https://leetcode.com/problems/happy-number/)|Java|Easy||
 |204|[Count Primes](https://leetcode.com/problems/count-primes/)|Java|Easy||
 |205|[Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)|Java|Easy||
@@ -60,9 +61,11 @@
 |605|[Can Place Flowers](https://leetcode.com/problems/can-place-flowers/)|Java|Easy|Note the first and last index.|
 |628|[Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/)|Java|Easy||
 |643|[Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/)|Java|Easy||
+|645|[Set Mismatch](https://leetcode.com/problems/set-mismatch/)|Java|Easy||
 |661|[Image Smoother](https://leetcode.com/problems/image-smoother/)|Java|Easy||
 |665|[Non-decreasing Array](https://leetcode.com/problems/non-decreasing-array/)|Java|Easy|The problem interval at must 4 elements.|
 |674|[Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/)|Java|Easy||
+|690|[Employee Importance](https://leetcode.com/problems/employee-importance/)|Java|Easy||
 |697|[Degree of an Array](https://leetcode.com/problems/degree-of-an-array/)|Java|Easy|The degree of array is the maximum frequency of any one of its elements.|
 |717|[1-bit and 2-bit Characters](https://leetcode.com/problems/1-bit-and-2-bit-characters/)|Java|Easy||
 |724|[Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)|Java|Easy||
