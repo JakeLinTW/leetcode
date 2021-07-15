@@ -1,11 +1,13 @@
-# LeetCode
+## LeetCode
 
 |#|Title|Solution|Diffculty|Note|
 |-|-|-|-|-|
 |1|[Two Sum](https://leetcode.com/problems/two-sum/)|Java|Easy||
+|2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)|Java|Medium||
 |3|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)|Java|Medium||
 |11|[Container With Most Water](https://leetcode.com/problems/container-with-most-water/)|Java|Medium||
 |15|[3Sum](https://leetcode.com/problems/3sum/)|Java|Medium||
+|19|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|Java|Medium||
 |26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)|Java|Easy||
 |27|[Remove Element](https://leetcode.com/problems/remove-element/)|Jave|Easy||
 |28|[Implement strStr()](https://leetcode.com/problems/implement-strstr/)|Java|Easy||
@@ -44,6 +46,7 @@
 |290|[Word Pattern](https://leetcode.com/problems/word-pattern/)|Java|Easy||
 |299|[Bulls and Cows](https://leetcode.com/problems/bulls-and-cows/)|Java|Medium||
 |344|[Reverse String](https://leetcode.com/problems/reverse-string/)|Java|Easy||
+|345|[Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/)|Java|Easy||
 |347|[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)|Java|Medium||
 |349|[Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/)|Java|Easy||
 |350|[Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/)|Java|Easy||
@@ -52,6 +55,7 @@
 |389|[Find the Difference](https://leetcode.com/problems/find-the-difference/)|Java|Easy||
 |409|[Longest Palindrome](https://leetcode.com/problems/longest-palindrome/)|Java|Easy||
 |414|[Third Maximum Number](https://leetcode.com/problems/third-maximum-number/)|Java|Easy||
+|424|[Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)|Java|Medium||
 |438|[Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/)|Java|Medium||
 |448|[Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)|Java|Easy||
 |485|[Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/)|Java|Easy||
